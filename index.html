@@ -15,27 +15,31 @@
   </head>
   <body>
     <!--Шапка сайту-->
-    <header>
-      <nav>
-        <a href="./index.html" class="logo"> <span class="logo-accent">Web</span>Studio</a>
-        <ul class="list">
-          <li>
-            <a href="./index.html" class="link">Студія</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="link">Портфоліо</a>
-          </li>
-          <li>
-            <a href="./" class="link">Контакти</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="list">
-        <li>
-          <a href="mailto:" class="link link-current">info@devstudio.com</a>
-        </li>
-        <li><a href="tel:" class="link link-current">+38 096 111 11 11</a></li>
-      </ul>
+    <header class="page-header">
+      <div class="container">
+        <div class="general-nav">
+          <nav class="main-nav">
+            <a href="./index.html" class="logo"> <span class="logo-accent">Web</span>Studio</a>
+            <ul class="list site-nav">
+              <li class="item">
+                <a href="./index.html" class="link">Студія</a>
+              </li>
+              <li class="item">
+                <a href="./portfolio.html" class="link">Портфоліо</a>
+              </li>
+              <li class="item">
+                <a href="./" class="link">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="list contacts">
+            <li class="item">
+              <a href="mailto:" class="link link-current">info@devstudio.com</a>
+            </li>
+            <li class="item"><a href="tel:" class="link link-current">+38 096 111 11 11</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
       <!--Hero-->
@@ -81,14 +85,14 @@
       <section class="services section">
         <div class="container">
           <h2 class="our-activities-title">Чим ми займаємося</h2>
-          <ul class="list">
-            <li>
+          <ul class="list activities-list">
+            <li class="activities-item-1">
               <img src="./images/box1.jpg" alt="Людина тицяє по клавіатурі" />
             </li>
-            <li>
+            <li class="activities-item-2">
               <img src="./images/box2.jpg" alt="Людина тицяє в телефоні" />
             </li>
-            <li>
+            <li class="activities-item-3">
               <img src="./images/box3.jpg" alt="Людина тицяє в планшеті" />
             </li>
           </ul>
@@ -98,24 +102,24 @@
       <section class="our-team section">
         <div class="container">
           <h2 class="our-team-title">Наша команда</h2>
-          <ul class="list">
+          <ul class="list team-cards-list">
             <li class="team-cards">
-              <img src="./images/demianenko.jpg" alt="Ігор" width="270" />
+              <img src="./images/demianenko.jpg" alt="Ігор" width="270" class="team-cards-photos" />
               <h3 class="team-cards-text">Ігор Дем'яненко</h3>
               <p lang="en" class="team-cards-description">Product Designer</p>
             </li>
             <li class="team-cards">
-              <img src="./images/repina.jpg" alt="Ольга" width="270" />
+              <img src="./images/repina.jpg" alt="Ольга" width="270" class="team-cards-photos" />
               <h3 class="team-cards-text">Ольга Рєпіна</h3>
               <p lang="en" class="team-cards-description">Frontend Developer</p>
             </li>
             <li class="team-cards">
-              <img src="./images/tarasov.jpg" alt="Микола" width="270" />
+              <img src="./images/tarasov.jpg" alt="Микола" width="270" class="team-cards-photos" />
               <h3 class="team-cards-text">Микола Тарасов</h3>
               <p lang="en" class="team-cards-description">Marketing</p>
             </li>
             <li class="team-cards">
-              <img src="./images/ermakov.jpg" alt="Михайло" width="270" />
+              <img src="./images/ermakov.jpg" alt="Михайло" width="270" class="team-cards-photos" />
               <h3 class="team-cards-text">Михайло Єрмаков</h3>
               <p lang="en" class="team-cards-description">UI Designer</p>
             </li>
@@ -124,28 +128,30 @@
       </section>
     </main>
     <footer class="footer-of-page">
-      <a href="./index.html" class="logo">
-        <span class="logo-accent">Web</span><span class="logo-studio">Studio</span></a
-      >
-      <adress>
-        <ul class="list">
-          <li>
-            <a
-              href="https://goo.gl/maps/8LcowiJGbP3ugfM79"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              class="link link-adress"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
-          <li>
-            <a href="mailto:" class="link link-current">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:" class="link link-current">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </adress>
+      <div class="container">
+        <a href="./index.html" class="logo-footer">
+          <span class="logo-accent">Web</span><span class="logo-studio">Studio</span></a
+        >
+        <adress>
+          <ul class="list footer-contacts">
+            <li>
+              <a
+                href="https://goo.gl/maps/8LcowiJGbP3ugfM79"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="link link-adress"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li class="footer-mail">
+              <a href="mailto:" class="link link-current">info@devstudio.com</a>
+            </li>
+            <li class="footer-phone">
+              <a href="tel:" class="link link-current">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </adress>
+      </div>
     </footer>
   </body>
 </html>
