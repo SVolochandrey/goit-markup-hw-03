@@ -12,33 +12,35 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
   </head>
   <body>
     <!--Шапка сайту-->
     <header class="page-header">
-      <div class="container">
-        <div class="general-nav">
-          <nav class="main-nav">
-            <a href="./index.html" class="logo"> <span class="logo-accent">Web</span>Studio</a>
-            <ul class="list site-nav">
-              <li class="item">
-                <a href="./index.html" class="link">Студія</a>
-              </li>
-              <li class="item">
-                <a href="./portfolio.html" class="link">Портфоліо</a>
-              </li>
-              <li class="item">
-                <a href="./" class="link">Контакти</a>
-              </li>
-            </ul>
-          </nav>
-          <ul class="list contacts">
+      <div class="container general-nav">
+        <nav class="main-nav">
+          <a href="./index.html" class="logo"> <span class="logo-accent">Web</span>Studio</a>
+          <ul class="list site-nav">
             <li class="item">
-              <a href="mailto:" class="link link-current">info@devstudio.com</a>
+              <a href="./index.html" class="link">Студія</a>
             </li>
-            <li class="item"><a href="tel:" class="link link-current">+38 096 111 11 11</a></li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфоліо</a>
+            </li>
+            <li class="item">
+              <a href="./" class="link">Контакти</a>
+            </li>
           </ul>
-        </div>
+        </nav>
+        <ul class="list contacts">
+          <li class="item">
+            <a href="mailto:" class="link link-current">info@devstudio.com</a>
+          </li>
+          <li class="item"><a href="tel:" class="link link-current">+38 096 111 11 11</a></li>
+        </ul>
       </div>
     </header>
     <main>
@@ -54,25 +56,25 @@
         <div class="container">
           <h2 hidden>Наші переваги</h2>
           <ul class="list benefits-list">
-            <li class="details-item">
+            <li class="benefits-item">
               <h3 class="benefits-title details">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="benefits-text details-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-            <li class="punctuality-item">
+            <li class="benefits-item">
               <h3 class="benefits-title punctuality">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="benefits-text punctuality-text">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
-            <li class="planning-item">
+            <li class="benefits-item">
               <h3 class="benefits-title planning">ПЛАНУВАННЯ</h3>
               <p class="benefits-text planning-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="modern-technologies-item">
+            <li class="benefits-item">
               <h3 class="benefits-title modern-technologies">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="benefits-text modern-technologies-text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
@@ -86,13 +88,13 @@
         <div class="container">
           <h2 class="our-activities-title">Чим ми займаємося</h2>
           <ul class="list activities-list">
-            <li class="activities-item-1">
+            <li class="activities-item">
               <img src="./images/box1.jpg" alt="Людина тицяє по клавіатурі" />
             </li>
-            <li class="activities-item-2">
+            <li class="activities-item">
               <img src="./images/box2.jpg" alt="Людина тицяє в телефоні" />
             </li>
-            <li class="activities-item-3">
+            <li class="activities-item">
               <img src="./images/box3.jpg" alt="Людина тицяє в планшеті" />
             </li>
           </ul>
@@ -134,7 +136,7 @@
         >
         <adress>
           <ul class="list footer-contacts">
-            <li>
+            <li class="footer-contacts-item">
               <a
                 href="https://goo.gl/maps/8LcowiJGbP3ugfM79"
                 target="_blank"
@@ -143,10 +145,10 @@
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li class="footer-mail">
+            <li class="footer-contacts-item">
               <a href="mailto:" class="link link-current">info@devstudio.com</a>
             </li>
-            <li class="footer-phone">
+            <li class="footer-contacts-item">
               <a href="tel:" class="link link-current">+38 096 111 11 11</a>
             </li>
           </ul>
